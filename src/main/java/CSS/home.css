@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/backGround.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+}
+
+p {
+    color: black;
+    font-size: 30px;
+    line-height: 55px;
+    float: left;
+    padding: 0 120px;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ul li {
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    padding: 10px 40px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+table {
+    position: fixed;
+    margin-top: 180px;
+    justify-items: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+caption {
+    color: black;
+    font-size: 35px;
+}
+
+thead {
+    float: top;
+    display: table-caption;
+}
+
+tbody {
+    display: block;
+    height: 362px;
+    overflow-y: auto;
+}
+
+td, th {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #000;
+    color: black;
+}
+#hospital{
+    width:161.5px;
+}
+#afdeling{
+    width: 282px;
+}
+#tid{
+    width: 63px;
+}
+#dato{
+    width: 81px;
+}
+
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
